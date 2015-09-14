@@ -13,9 +13,11 @@ deploying the application in different environments.
 Documentation
 ---------------------
 Clone git repository
+
 `git clone https://github.com/mikeyii/yii2-advanced-template`
 
 Init your application
+
 `./init`
 
 Create your database
