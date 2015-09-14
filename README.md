@@ -10,11 +10,22 @@ is a separate Yii application.
 The template is designed to work in a team development environment. It supports
 deploying the application in different environments.
 
-Documentation is at [docs/guide/README.md](docs/guide/README.md).
+Documentation
+---------------------
+Clone git repository
+`git clone https://github.com/mikeyii/yii2-advanced-template`
 
-[![Latest Stable Version](https://poser.pugx.org/yiisoft/yii2-app-advanced/v/stable.png)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
-[![Total Downloads](https://poser.pugx.org/yiisoft/yii2-app-advanced/downloads.png)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
-[![Build Status](https://travis-ci.org/yiisoft/yii2-app-advanced.svg?branch=master)](https://travis-ci.org/yiisoft/yii2-app-advanced)
+Init your application
+`./init`
+
+Create your database
+
+Write that database in file `/path-to-your-app/common/config/main-local.php`
+
+And start migration
+
+`./yii migrate`
+
 
 DIRECTORY STRUCTURE
 -------------------
