@@ -12,19 +12,19 @@ deploying the application in different environments.
 
 Documentation
 ---------------------
-Clone git repository
+1.Clone git repository
 
 `git clone https://github.com/mikeyii/yii2-advanced-template`
 
-Init your application
+2.Init your application
 
 `./init`
 
-Create your database
+3.Create your database
 
-Write that database in file `/path-to-your-app/common/config/main-local.php`
+4.Write that database in file `/path-to-your-app/common/config/main-local.php`
 
-And start migration
+5.And start migration
 
 `./yii migrate`
 
